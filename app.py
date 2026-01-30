@@ -132,3 +132,7 @@ with col_graf4:
         st.plotly_chart(grafico_paises, use_container_width=True)
     else:
         st.warning("Nenhum dado para exibir no gráfico de países.") 
+
+        # --- Tabela de Dados Detalhados ---
+st.subheader("Dados Detalhados")
+st.dataframe(df_filtrado)
