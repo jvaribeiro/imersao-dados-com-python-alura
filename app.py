@@ -9,3 +9,6 @@ st.set_page_config(
     page_icon="📊",
     layout="wide",
 )
+
+# --- Carregamento dos dados ---
+df = pd.read_csv("https://raw.githubusercontent.com/vqrca/dashboard_salarios_dados/refs/heads/main/dados-imersao-final.csv")
